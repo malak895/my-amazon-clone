@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: -10px -0px 20px rgba(196, 240, 240,0.5),
+    50px 50px 20px rgba(177, 176, 176, 0.5);
+    padding: 10px;
 }
 
 .product > mat-card > img{
@@ -238,9 +241,7 @@
     /* filter: blur(8px); */
     
 }
-.productBackgraound{
-    background-color: rgba(213, 247, 247,0.4);
-}
+
 .main{
     margin-top: 20%;
 }
