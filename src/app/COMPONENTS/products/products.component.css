@@ -1,3 +1,4 @@
+
 .products{
     display: flex;
     flex-wrap: wrap;
@@ -240,10 +241,14 @@
 .productBackgraound{
     background-color: rgba(213, 247, 247,0.4);
 }
+.main{
+    margin-top: 20%;
+}
 .card-product-container{
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    
 
 }
 .card-product{
@@ -253,7 +258,7 @@
     justify-content: space-between;
     max-width: 310px;
     box-shadow: -10px -0px 20px rgba(196, 240, 240,0.5),
-    50px 50px 20px rgba(196, 240, 240,0.5);
+    50px 50px 20px rgba(177, 176, 176, 0.5);
     padding: 10px;
 }
 .card-product h2{

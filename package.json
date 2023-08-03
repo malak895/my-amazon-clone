@@ -2,6 +2,7 @@
   "name": "my-amazon-clone",
   "version": "0.0.0",
   "scripts": {
+    "watch": "ng build --watch --configuration development",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
